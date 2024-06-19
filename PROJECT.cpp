@@ -426,7 +426,7 @@ int main()
 
   Menu menu;
   Restaurant HalalGuyz(&menu);
-  Manager manager("Faizan", "03218207972", 19, "abcx123");
+  Manager manager("Shayan", "03218207972", 20, "abcx123");
   Waiter waiters[10];
   DeclareWaiters(waiters);
   Table tables[18];
@@ -436,7 +436,7 @@ int main()
   bool z=true;
   while(z==true){
   cout << "*** MUTTONJEES RESTUARANT ***" << endl;
-  cout << "Would you like to deal with orders or look into technicalities? (1: order, 2: resturant details, 3: Exit): ";
+  cout << "Would you like to deal with orders or look into technicalities? (1: order, 2: restuarant details, 3: Exit): ";
   cin >> choice;
 
 try{
@@ -507,7 +507,7 @@ try{
     }
 
     int ch;
-    cout << "Would you like to:\n 1.View all employee details \n 2.Add item to the menu \n 3.Add an employee \n 4.View Salary \n 5. Restaurant Expenses and Profit"
+    cout << "Would you like to:\n 1. View all employee details \n 2. Add item to the menu \n 3. Add an employee \n 4. View Salary \n 5. Restaurant Expenses and Profit"
          << endl;
     cin >> ch;
     if (ch == 1)
