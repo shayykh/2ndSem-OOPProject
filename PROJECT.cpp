@@ -435,8 +435,8 @@ int main()
   int choice;
   bool z=true;
   while(z==true){
-  cout << "Welcome To ABC" << endl;
-  cout << "Would you like to deal with orders or look into technicalities?(1: order,2: resturant details,3: Exit): ";
+  cout << "*** MUTTONJEES RESTUARANT ***" << endl;
+  cout << "Would you like to deal with orders or look into technicalities? (1: order, 2: resturant details, 3: Exit): ";
   cin >> choice;
 
 try{
